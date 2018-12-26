@@ -48,7 +48,5 @@ public class DataTypes {
         System.out.println("char");
         char char1 = 'q';
         System.out.println(char1);
-
-
     }
 }

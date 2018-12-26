@@ -53,7 +53,7 @@ public class CollectionListAndIterator {
         // в данном случае мы выведем второй
         // элемент с индексом один
         // Так же мы можем записать
-         int a = list.get(2); // наша переменная "а" примит значение третьего элемента
+        int a = list.get(2); // наша переменная "а" примит значение третьего элемента
         // в списке
         System.out.println();
 
@@ -108,7 +108,7 @@ public class CollectionListAndIterator {
         //След метод .isEmpty - позволяет узнать пустой ли нашь лист или нет
 
         System.out.println(list.isEmpty());//так как лист не пустой получем рез false
-       // list.clear();// очистим лист
+        // list.clear();// очистим лист
         System.out.println(list.isEmpty()); //так как лист пуст получим рез true
         System.out.println();
 
@@ -169,13 +169,8 @@ public class CollectionListAndIterator {
         //элемента не будет, и внутри цикла мы воводим на экран iterator.next
         //то есть переходим на следующий элемент и выводим его на экран
         Iterator<Integer> iterator1 = list3.iterator();
-        while (iterator1.hasNext()){
+        while (iterator1.hasNext()) {
             System.out.println(iterator1.next());
         }
-
-
-
-
-
     }
 }
