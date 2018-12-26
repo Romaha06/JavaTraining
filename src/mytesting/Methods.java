@@ -8,13 +8,13 @@ public class Methods {
         int a = 13;
         int b = 3;
         int sum;
-        sum = getSum(a, b);//вызываем нашь метод который мы создали ниже
+        sum = getSum(a, b);//вызываем наш метод который мы создали ниже
         System.out.println(sum);
         sum = getSum(10, 150);
         System.out.println(sum);
         System.out.println(getSum(2, 11));
 
-        showSum(10, 51, 77);//Этот метод сразу выведит на экран сумм этих значений
+        showSum(10, 51, 77);//Этот метод сразу выведет на экран сумм этих значений
         showSum(10, 20, 10);
 
         saySamth();//с помощью этого метода мы выведем на экран "Hello! i'm running You see me!"
