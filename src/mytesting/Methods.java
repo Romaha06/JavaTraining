@@ -22,6 +22,8 @@ public class Methods {
         sayHello("Roman");//данный метод позволяет вставить в текст любое имя, слово
         String name = "Vasya";
         sayHello(name);
+
+        showSumToPerson("Vanya", 5, 10, 5);
     }
 
     /*Напишем метод который будет сумировать два числа.
@@ -75,4 +77,13 @@ public class Methods {
         System.out.println("Nice to meet you!");
     }
 
+    /*Таким образом мы можем использовать методы в методе, мы можем вызывать методы
+     * множество раз, передавать различные значения и получать какой то результат
+     * на выходе и данные методы могут включать в себя другие методы*/
+    static void showSumToPerson(String name, int a, int b, int c) {
+        System.out.println("Start of program");
+        sayHello(name);
+        showSum(a, b, c);
+        System.out.println("End of program");
+    }
 }
