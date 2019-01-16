@@ -1,5 +1,7 @@
 package mytesting;
 
+import java.sql.SQLOutput;
+
 public class Car {
     /*Укажим некие характеристики которые будет иметь нашь обьект*/
     int height;
@@ -72,5 +74,13 @@ public class Car {
     public Car(String color) {
         this.color = color;//то есть this.color это наша данная переменна color
         //она примит значение которое мы укажем в скобках
+    }
+    /*Пример для Модификаторы Static*/
+    /*С помощью модификатора статик мы создали статичную переменную и статичный метод
+    * в классе Car. Перейдемм в нашь основной метод и разберемся как работать с
+    * этими статичными переменнымии функциями*/
+    final static int var = 10;
+    static void method(){
+        System.out.println("Static method.");
     }
 }
